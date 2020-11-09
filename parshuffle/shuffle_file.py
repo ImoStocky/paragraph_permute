@@ -64,7 +64,7 @@ def read_index(file):
     return par_start
 
 
-def shuffle_file(input_fname, output_fname):
+def shuffle_file(input_fname, output_fname=None):
 
     file_name = pathlib.Path(input_fname)
     with open(file_name, "r") as file:
